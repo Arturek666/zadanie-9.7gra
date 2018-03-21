@@ -119,7 +119,7 @@ function setGamePoints() {
 
 function checkGameWinner() {
     var result = '';
-    var maxPoints = 3;
+    var maxPoints = 10;
 
     if (player.score == maxPoints || computer.score == maxPoints) {
         if (player.score == maxPoints) {
